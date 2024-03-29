@@ -10,7 +10,7 @@ Eine Wiederholung findet alle 10 Minuten statt (wählbar).
 
 Kann verwendet werden für Start/Zwischenstation eines Multis oder Mysteries.
 
-Schlatung kann auch für andere Microprozessoren wie RP2040, Raspi Zero/Pico/etc. verwendet werden. Es können auch andere Photodioden oder 
+Schaltung kann auch für andere Microprozessoren wie RP2040, Raspi Zero/Pico/etc. verwendet werden. Es können auch andere Photodioden oder 
 RGB LED verwendet werden (Kathode).
 
 Bei einer Verwendung des Codes oder Abänderung bitte ich um Mitteilung. Den Code würde ich hier einstellen.
