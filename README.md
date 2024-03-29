@@ -15,4 +15,6 @@ RGB LED verwendet werden (Kathode).
 
 Bei einer Verwendung des Codes oder Abänderung bitte ich um Mitteilung. Den Code würde ich hier einstellen.
 
+Das Programm muss mit den benötigten librarys als main.py auf den esp32 geflasht werden und startet nach Reset automatisch.
+
 Grüße futurecube (@geocaching.com)
