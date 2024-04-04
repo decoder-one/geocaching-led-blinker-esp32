@@ -1,8 +1,8 @@
 #
-# geocaching koordinaten blinker mit tagschaltung alle x min
+# geocaching koordinaten blinker alle x min
 # rgb led (anode) mit tageslichtschaltung auf esp32c3
 # (c) 2024 by norbert ossenkopp aka futurecube @geocaching.com
-# anregungen u. danksagungen an futurecube@gmx.net
+# kontakt: futurecube@gmx.net
 #
 
 from machine import Pin, PWM, ADC
@@ -16,7 +16,6 @@ led_b = PWM(Pin(7))   # GPIO Pin 7 für Blau
 # startsequenz 10x rot blinken
 def seq_startend():
     for a in range(10):
-                #print ("grün: ", digit)
                 # Grün
                 set_color(1023, 0, 0)
                 time.sleep(0.2)
@@ -48,7 +47,6 @@ def control_led(number):
     for digit in str(number):
         digit = int(digit)
         if digit == 0:
-            #print ("blau", digit)
             # blau
             set_color(0, 0, 1023)
             time.sleep(0.5)
