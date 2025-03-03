@@ -1,7 +1,0 @@
-Shopping List
-
-1	Esp32-c3 super mini	Variante variant THT
-1	RGB LED (com. anode, rbg)	pin order rbg; Paket 5 mm [THT]; polarity common anode; rgb RGB
-1	1kΩ Resistor	Widerstand 1kΩ; Paket 0805 [SMD]; Toleranz ±5%
-1	PHOTOCELL	Variante pth; Paket photocell
-3	220Ω Resistor	Widerstand 220Ω; Paket 2512 [SMD]; Toleranz ±5%
